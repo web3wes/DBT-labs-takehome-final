@@ -1,0 +1,9 @@
+id,cost,category,name,brand,retail_price,department,sku,distribution_center_id
+501,42.00,Outerwear,Trail Jacket,Northstar,89.95,Women,NS-JACKET-01,1
+502,18.50,Accessories,Canvas Tote,Common Thread,45.00,Women,CT-TOTE-01,2
+503,60.00,Shoes,Everyday Sneaker,Stride,120.00,Men,ST-SNEAKER-01,1
+504,15.00,Tops,Cotton Tee,Baseline,39.99,Women,BL-TEE-01,3
+505,28.00,Denim,Straight Jean,Indigo Works,64.50,Women,IW-JEAN-01,2
+506,8.00,Accessories,Wool Socks,Common Thread,24.00,Women,CT-SOCK-01,1
+507,40.00,Outerwear,Rain Shell,Northstar,99.00,Men,NS-SHELL-01,3
+508,72.00,Shoes,Leather Boot,Stride,150.00,Women,ST-BOOT-01,2

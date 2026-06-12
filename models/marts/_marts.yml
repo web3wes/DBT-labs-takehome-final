@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: fct_daily_sales
+    description: Daily completed-order revenue by product category and department.
+    columns:
+      - name: order_date
+        tests:
+          - not_null
+      - name: product_category
+        tests:
+          - not_null
+      - name: department
+        tests:
+          - not_null
+
+  - name: dim_customers
+    description: Customer dimension with lightweight lifetime order metrics.
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+          - unique

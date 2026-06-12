@@ -1,0 +1,9 @@
+target/
+dbt_packages/
+logs/
+.dbt/
+.venv/
+*.pyc
+.DS_Store
+*key*.json
+*.credentials.json

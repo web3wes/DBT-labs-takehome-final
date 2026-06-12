@@ -1,0 +1,43 @@
+version: 2
+
+seeds:
+  - name: raw_orders
+    description: Seeded order-level records for the ecommerce sample dataset.
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null
+
+  - name: raw_order_items
+    description: Seeded line-item records for ecommerce orders.
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        tests:
+          - not_null
+      - name: product_id
+        tests:
+          - not_null
+
+  - name: raw_products
+    description: Seeded product catalog records.
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+
+  - name: raw_users
+    description: Seeded customer records.
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique

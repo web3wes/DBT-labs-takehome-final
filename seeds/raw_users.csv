@@ -1,0 +1,6 @@
+id,first_name,last_name,email,age,gender,state,street_address,postal_code,city,country,latitude,longitude,traffic_source,created_at
+1,Avery,Stone,avery@example.com,31,F,NY,10 Market St,10001,New York,USA,40.7128,-74.0060,Search,2025-10-01 08:00:00
+2,Jordan,Lee,jordan@example.com,28,M,CA,88 Mission St,94105,San Francisco,USA,37.7749,-122.4194,Email,2025-11-12 12:30:00
+3,Morgan,Chen,morgan@example.com,35,F,WA,22 Pine Ave,98101,Seattle,USA,47.6062,-122.3321,Social,2025-12-03 09:45:00
+4,Casey,Rivera,casey@example.com,41,M,TX,7 Congress Ave,78701,Austin,USA,30.2672,-97.7431,Referral,2025-12-20 14:10:00
+5,Riley,Patel,riley@example.com,26,F,IL,55 Lake St,60601,Chicago,USA,41.8781,-87.6298,Search,2026-01-02 10:25:00
